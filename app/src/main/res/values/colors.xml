@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme -->
+    <color name="colorPrimary">#928AFF</color>
+    <color name="colorPrimaryVariant">#5E5DCB</color>
+    <color name="colorOnPrimaryVariant">#FFFFFF</color>
+    <color name="colorSecondary">#FF4656</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+    <color name="colorBackground">#FAFAFA</color>
+
+    <!-- Weather Condition -->
+    <color name="weather_atmosphere">#8C7B75</color>
+    <color name="weather_clear_day">#03A9F4</color>
+    <color name="weather_clear_night">#673AB7</color>
+    <color name="weather_cloudy_day">#007AC1</color>
+    <color name="weather_cloudy_night">#320B86</color>
+    <color name="weather_drizzle">#8D8D8D</color>
+    <color name="weather_rain">#707070</color>
+    <color name="weather_snow">#808E95</color>
+    <color name="weather_thunderstorm">#616161</color>
+
+</resources>

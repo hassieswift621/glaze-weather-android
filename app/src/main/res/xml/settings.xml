@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Homesceen preferences. -->
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/preference_category_homescreen">
+
+        <!-- Use current location switch. -->
+        <SwitchPreferenceCompat
+            app:iconSpaceReserved="false"
+            app:key="@string/preference_use_current_location_key"
+            app:summary="@string/preference_use_current_location_desc"
+            app:title="@string/preference_use_current_location_title" />
+
+    </PreferenceCategory>
+
+    <!-- Weather preferences. -->
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/preference_category_weather">
+
+        <!-- Temperature units. -->
+        <ListPreference
+            app:defaultValue="c"
+            app:entries="@array/preference_temperature_units_names"
+            app:entryValues="@array/preference_temperature_units_values"
+            app:iconSpaceReserved="false"
+            app:key="@string/preference_temperature_units_key"
+            app:summary="%s"
+            app:title="@string/preference_temperature_units_title" />
+
+        <!-- Wind speed units. -->
+        <ListPreference
+            app:defaultValue="mph"
+            app:entries="@array/preference_wind_speed_units_names"
+            app:entryValues="@array/preference_wind_speed_units_values"
+            app:iconSpaceReserved="false"
+            app:key="@string/preference_wind_speed_units_key"
+            app:summary="%s"
+            app:title="@string/preference_wind_speed_units_title" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

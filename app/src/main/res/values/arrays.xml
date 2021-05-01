@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Preferences -->
+    <string-array name="preference_temperature_units_names">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+    <string-array name="preference_temperature_units_values">
+        <item>c</item>
+        <item>f</item>
+    </string-array>
+    <string-array name="preference_wind_speed_units_names">
+        <item>KPH</item>
+        <item>MPH</item>
+    </string-array>
+    <string-array name="preference_wind_speed_units_values">
+        <item>kph</item>
+        <item>mph</item>
+    </string-array>
+
+</resources>

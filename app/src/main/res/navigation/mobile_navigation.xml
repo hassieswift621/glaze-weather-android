@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ninja.hassie.android.apps.glaze.fragment.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_nav_home_to_nav_settings"
+            app:destination="@id/nav_settings" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_locations"
+            app:destination="@id/nav_locations" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_locations"
+        android:name="ninja.hassie.android.apps.glaze.fragment.LocationsFragment"
+        android:label="@string/menu_locations" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="ninja.hassie.android.apps.glaze.fragment.SettingsFragment"
+        android:label="@string/menu_settings" />
+
+</navigation>

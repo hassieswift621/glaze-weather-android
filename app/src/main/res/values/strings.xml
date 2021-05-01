@@ -1,0 +1,87 @@
+<resources>
+
+    <!-- App wide -->
+    <string name="app_name">Glaze</string>
+    <string name="title_activity_add_location">Add Location</string>
+    <string name="title_activity_weather">Weather</string>
+    <string name="na">N/A</string>
+    <string name="temperature">%d&#xb0;</string>
+    <string name="min_temperature">Min %d&#xb0;</string>
+    <string name="max_temperature">Max %d&#xb0;</string>
+
+    <!-- API keys -->
+    <string name="api_key_location_iq">YOUR LOCATION IQ KEY</string>
+    <string name="api_key_owm">YOUR OPEN WEATHER MAP KEY</string>
+
+    <!-- Nav Drawer -->
+    <string name="menu_home">Home</string>
+    <string name="menu_locations">Locations</string>
+    <string name="menu_settings">Settings</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Glaze</string>
+    <string name="nav_header_subtitle">Developed by Hassie</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Home -->
+    <string name="home_no_location_set_subtitle">Home location not set</string>
+    <string name="home_no_location_set_content">To set a home location\n\n
+        1) Add a location from the locations screen\n\n
+        2) Long press the added location and press \'Set as home location\'
+    </string>
+    <string name="home_permission_required_subtitle">Location permissions required</string>
+    <string name="home_permission_required_content">Glaze requires location permissions to show
+        weather for your current location</string>
+    <string name="home_permission_grant_button">Grant</string>
+
+    <!-- Locations -->
+    <string name="locations_set_as_home_location">Set as home location</string>
+    <string name="locations_set_as_home_location_success">%s set as home location</string>
+    <string name="locations_delete">Delete</string>
+    <string name="locations_delete_fail">Failed to delete location</string>
+    <string name="locations_delete_success">Location deleted</string>
+    <string name="locations_search_location_hint">Search for a location</string>
+
+    <!-- Weather -->
+    <string name="weather_forecast_title">Forecast</string>
+    <string name="weather_details_title">Details</string>
+    <string name="weather_sunrise_title">Sunrise</string>
+    <string name="weather_sunset_title">Sunset</string>
+    <string name="weather_cloudiness_title">Cloudiness</string>
+    <string name="weather_cloudiness">%d%%</string>
+    <string name="weather_rain_title">Rain</string>
+    <string name="weather_rain">%smm</string>
+    <string name="weather_wind_speed_title">Wind Speed</string>
+    <string name="weather_wind_direction_title">Wind Direction</string>
+    <string name="weather_humidity_title">Humidity</string>
+    <string name="weather_humidity">%d%%</string>
+    <string name="weather_pressure_title">Pressure</string>
+    <string name="weather_pressure">%dhPa</string>
+    <string name="weather_last_refresh">Last refreshed %s</string>
+
+    <!-- Preferences -->
+    <string name="preference_home_location_key">pref_home_location</string>
+    <string name="preference_category_homescreen">Homescreen</string>
+    <string name="preference_use_current_location_title">Use current location</string>
+    <string name="preference_use_current_location_desc">
+        Show weather for my current location on the home screen.
+        Note: Location services must be enabled.
+    </string>
+    <string name="preference_use_current_location_key">pref_use_current_location</string>
+    <string name="preference_category_weather">Weather</string>
+    <string name="preference_temperature_units_title">Temperature units</string>
+    <string name="preference_temperature_units_key">pref_temperature_units</string>
+    <string name="preference_wind_speed_units_title">Wind speed units</string>
+    <string name="preference_wind_speed_units_key">pref_wind_speed_units</string>
+
+    <!-- Permissions -->
+    <string name="permissions_location_title">Allow Glaze to access your location</string>
+    <string name="permissions_location_content">Glaze needs location permissions
+        to access your current location in order to show weather for your current location</string>
+    <string name="permissions_location_allow_button">Allow</string>
+    <string name="permissions_location_deny_button">No Thanks</string>
+    <string name="permissions_location_denied_content">Without location permissions, Glaze is unable
+        to access your current location</string>
+
+</resources>
